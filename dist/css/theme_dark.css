@@ -49,13 +49,13 @@ h1 {
 }
 
 .search_google {
-    background-image: url('images/icons/google.png');
+    background-image: url('../img/icons/dark/google.png');
 }
 .search_youtube {
-    background-image: url('images/icons/youtube.png');
+    background-image: url('../img/icons/dark/youtube.png');
 }
 .search_wikipedia {
-    background-image: url('images/icons/wikipedia.jpg');
+    background-image: url('../img/icons/dark/wikipedia.jpg');
 }
 
 /* Grey button */

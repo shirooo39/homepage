@@ -50,15 +50,15 @@ h1 {
 }
 
 .search_google {
-    background-image: url('images/icons/google.png');
+    background-image: url('../img/icons/light/google.png');
 }
 
 .search_youtube {
-    background-image: url('images/icons/youtube.png');
+    background-image: url('../img/icons/light/youtube.png');
 }
 
 .search_wikipedia {
-    background-image: url('images/icons/wikipedia.jpg');
+    background-image: url('../img/icons/light/wikipedia.jpg');
     background-size: 21px 21px;
 }
 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--    Copyright 2014 gokoururi
+        This work is free. You can redistribute it and/or modify it under the
+        terms of the Do What The Fuck You Want To Public License, Version 2,
+        as published by Sam Hocevar. See the COPYING file for more details. -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+        <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+
+        <!---------------------------------------- Theme Configurations ---------------------------------------->
+        <link rel="icon" href="dist/img/icons/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" type="text/css" href="dist/css/theme_dark.css" />
+        <script type="text/javascript">
+            var mascotPath = "dist/img/mascots/";
+        </script>
+        <script type="text/javascript" src="dist/js/mascots.js"></script>
+        <!------------------------------------------------------------------------------------------------------>
+
+        <script type="text/javascript" src="dist/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="dist/js/mascots-control.js"></script>
+        <!-- Random mascot image will be set as background-image by javascript -->
+    </head>
+    <body>
+        <main> 
+            <header>
+                <!-- <h1>お帰りなさい、<span class="name-highlight">Shiro39様</span></h1> -->
+                <h1>Welcome back, <span class="name-highlight">Master</span></h1>
+                <p class="subtitle">I-It's not like I hate you or anything! B-Baka!</p>
+            </header>
+            <section class="searchContainer">
+                <form class="searchForm" method="get" action="https://google.com/search">
+                    <input class="searchBar search_google" type="text" name="q" placeholder="Google" autofocus="autofocus" search_/>
+                </form>
+                <form class="searchForm" method="get" action="https://youtube.com/results">
+                    <input class="searchBar search_youtube" type="text" name="search_query" placeholder="Youtube" search_/>
+                </form>
+                <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php">
+                    <input class="searchBar search_wikipedia" type="text" name="search" placeholder="Wikipedia" search_/>
+                </form>
+            </section>
+            <nav>
+                <ul class="buttonList">
+                    <li class="button button_green"><a href="http://github.com/shirooo39/homepage">GitHub</a></li>
+                    <li class="button button_grey buttonArrow"><a href="#">Image Search</a>
+                        <ul>
+                            <li><a href="https://saucenao.com">SauceNAO</a></li>
+                            <li><a href="https://iqdb.org">IQDB</a></li>
+                        </ul>
+                    </li>
+                    <li class="button button_grey buttonArrow"><a href="#">Translator</a>
+                        <ul>
+                            <li><a href="https://deepl.com">DeepL</a></li>
+                            <li><a href="https://translate.google.com">Google Translate</a></li>
+                            <li><a href="https://translate.yandex.com">Yandex Translate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="columnList">
+                    <li class="column column_green">
+                        <a>4chan</a>
+                        <ul>
+                            <li><a href="http://boards.4channel.org/a/">Anime</a></li>
+                            <li><a href="http://boards.4channel.org/w/">Anime Wallpaper</a></li>
+                            <li><a href="http://boards.4channel.org/u/">Yuri</a></li>
+                            <li><a href="http://boards.4channel.org/h/">Hentai</a></li>
+                        </ul>
+                    </li>
+                    <li class="column column_pink">
+                        <a>Anime</a>
+                        <ul>
+                            <li><a href="https://nyaa.si">nyaa</a></li>
+                            <li><a href="https://anidex.info">AniDex</a></li>
+                            <li><a href="https://animetosho.org">AnimeTosho</a></li>
+                        </ul>
+                    </li>
+                    <li class="column column_purple">
+                        <a>Manga</a>
+                        <ul>
+                            <li><a href="https://mangadex.org">MangaDex</a></li>
+                            <li><a href="https://manga.madokami.al/">madokami</a></li>
+                            <li><a href="https://nhentai.net">nhentai</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+    </body>
+</html>
